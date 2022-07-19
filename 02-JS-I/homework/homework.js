@@ -106,7 +106,10 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num = impar)
+       return true;
+       else if (num = par);
+       return false;
 }
 
 function elevarAlCuadrado(num) {
