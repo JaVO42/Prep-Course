@@ -69,11 +69,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 == str2) { 
-      return true; }  
-       else (str1 !== str2)   
-  {  return false; 
-     }
+  return str1.length === str2.length;
 }
 
 function menosQueNoventa(num) {
@@ -134,7 +130,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return Math.pow(num, 3);
+  return num * num * num;
 }
 
 function elevar(num, exponent) {
