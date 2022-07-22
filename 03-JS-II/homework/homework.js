@@ -151,7 +151,8 @@ function esVerdadero(valor){
   if (valor === true) {
     return 'Soy verdadero';
     }
-    else (valor === false) {
+    else (valor === false) 
+    {
       return 'Soy false';
     }
 }
